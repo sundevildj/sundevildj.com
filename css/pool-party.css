@@ -10,9 +10,8 @@
 }
 
 .pool-party-image {
-    width: 75%;
-    min-width: 900px;
-    max-width: 1300px;
+    width: 95%;
+    /* max-width: 1300px; */
 }
 
 .pool-party .info {
@@ -34,4 +33,21 @@
 
 .button_highlighted:hover {
     opacity: 1;
+}
+
+@media screen and (max-width: 1000px) {
+    .pool-party {
+        padding: 10px;
+    }
+    .pool-party-image {
+        width: 95%;
+    }
+
+    .details {
+        font-size: 16pt;
+    }
+
+    .pool-party .info {
+        font-size: 14pt;
+    }
 }
