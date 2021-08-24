@@ -1,0 +1,37 @@
+#countdown {
+    color: #fff;
+    font-weight: 100;
+    font-size: 24pt;
+}
+
+.details {
+    color: #fff;
+    font-size: 24pt;
+}
+
+.pool-party-image {
+    width: 75%;
+    min-width: 900px;
+    max-width: 1300px;
+}
+
+.pool-party .info {
+    color: #fff;
+    font-size: 20pt;
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid #fff;
+    max-width: 800px;
+    line-height: 1.6em;
+}
+
+.button_highlighted {
+    color: #000;
+    background: #fff;
+    opacity: 0.8;
+    transition: opacity 0.5s;
+}
+
+.button_highlighted:hover {
+    opacity: 1;
+}
