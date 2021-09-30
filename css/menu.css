@@ -30,6 +30,7 @@ a {
     /* background-color: rgba(0,0,0,0.3); */
 }
 
+
 .header li a {
     display: block;
     padding: 20px 20px;
@@ -131,20 +132,18 @@ a {
 
 /* 48em = 768px */
 
-@media (min-width: 48em) {
+@media (max-width: 768px) {
     .header li {
-        float: left;
+        /* float: left; */
+        padding: 0px;
     }
     .header li a {
         padding: 20px 30px;
     }
     .header .menu {
-        clear: none;
-        float: right;
+        /* clear: none; */
+        /* float: right; */
         max-height: none;
-    }
-    .header .menu-icon {
-        display: none;
     }
 }
 
